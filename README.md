@@ -29,11 +29,11 @@ Task → space routing. Vendor-neutral: routes to OKLab, CIELAB, CAM16, Jzazbz, 
 
 ### `helmlab`
 
-Correct API usage of the [helmlab](https://github.com/Grkmyldz148/helmlab) library (npm + PyPI). Two-space mental model (GenSpace for generation, MetricSpace for measurement), verified example outputs, and the gotchas that break generated code — exporter input space, per-language `distance()` contracts, 0–1 L scale, hallucinated methods.
+Correct API usage of the [helmlab](https://github.com/helmlab-space/helmlab) library (npm + PyPI). Two-space mental model (GenSpace for generation, MetricSpace for measurement), verified example outputs, and the gotchas that break generated code — exporter input space, per-language `distance()` contracts, 0–1 L scale, hallucinated methods.
 
 ## Evaluation
 
-In July 2026 both skills were evaluated on auto-verifiable tasks, solved in fresh headless sessions with and without the skill. Those results describe the skill versions of that time. On 2026-11-12 the skills changed (performance figures removed, see below) and they have not been evaluated again. Harness, tasks and raw answers: [helmlab/skills/…/eval](https://github.com/Grkmyldz148/helmlab/tree/main/skills/color-space-routing/eval).
+In July 2026 both skills were evaluated on auto-verifiable tasks, solved in fresh headless sessions with and without the skill. Those results describe the skill versions of that time. On 2026-11-12 the skills changed (performance figures removed, see below) and they have not been evaluated again. Harness, tasks and raw answers: [helmlab/skills/…/eval](https://github.com/helmlab-space/helmlab/tree/main/skills/color-space-routing/eval).
 
 The same evaluation compared a split layout (thin core + reference files) with single files; the split layout did worse, so the skills ship as single files.
 
@@ -47,7 +47,7 @@ The skills give no performance figures. Figures will be published on one evidenc
 npx skills update
 ```
 
-Source of truth lives in [Grkmyldz148/helmlab/skills](https://github.com/Grkmyldz148/helmlab/tree/main/skills); this repo is the install mirror.
+Source of truth lives in [helmlab-space/helmlab/skills](https://github.com/helmlab-space/helmlab/tree/main/skills); this repo is the install mirror.
 
 ## License
 
